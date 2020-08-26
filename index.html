@@ -13,19 +13,35 @@
         <div id="main">
             <div id="calculator">
                 <div id="displayDiv">
-
+                    <output id="answer" name="answer">5.35234</output>
                 </div>
-                <div id="numbersDiv">
-                    <input>
-                </div>
-                <div id="operatorsDiv">
-
-                </div>
-                <div id="clearDiv">
-
-                </div>
-                <div id="enterDiv">
-
+                <div id="btnDiv">
+                    <div id="topBtns">
+                        <div id="numbersDiv">
+                            <input type="button" class="btn numBtn" name="num1" id="num1" value="1" readonly>
+                            <input type="button" class="btn numBtn" name="num2" id="num2" value="2" readonly>
+                            <input type="button" class="btn numBtn" name="num3" id="num3" value="3" readonly>
+                            <input type="button" class="btn numBtn" name="num4" id="num4" value="4" readonly>
+                            <input type="button" class="btn numBtn" name="num5" id="num5" value="5" readonly>
+                            <input type="button" class="btn numBtn" name="num6" id="num6" value="6" readonly>
+                            <input type="button" class="btn numBtn" name="num7" id="num7" value="7" readonly>
+                            <input type="button" class="btn numBtn" name="num8" id="num8" value="8" readonly>
+                            <input type="button" class="btn numBtn" name="num9" id="num9" value="9" readonly>
+                            <input type="button" class="btn numBtn" name="num0" id="num0" value="0" readonly>
+                            <input type="button" class="btn numBtn" name="period" id="period" value="." readonly>
+                            <input type="button" class="btn numBtn" name="delete" id="delete" value="Del" readonly>
+                        </div>
+                        <div id="operatorsDiv">
+                            <input type="button" class="btn opBtn" name="opAdd" id="opAdd" value="+" readonly>
+                            <input type="button" class="btn opBtn" name="opSub" id="opSub" value="-" readonly>
+                            <input type="button" class="btn opBtn" name="opMultiply" id="opMultiply" value="*" readonly>
+                            <input type="button" class="btn opBtn" name="opDivide" id="opDivide" value="/" readonly>
+                        </div>
+                    </div>
+                    <div id="bottomBtns">
+                        <input type="button" class="btn largeBtn" name="clear" id="clear" value="Clear" readonly>
+                        <input type="button" class="btn largeBtn" name="equals" id="equals" value="=" readonly>
+                    </div>
                 </div>
             </div>
         </div>
